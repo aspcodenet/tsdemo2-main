@@ -1,0 +1,18 @@
+{
+  "name": "tsdemo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://aspcodenet.github.io/tsdemo2/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "tsc && vite build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  }
+}
